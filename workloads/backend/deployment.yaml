@@ -39,6 +39,8 @@ spec:
           env:
             - name: PODINFO_UI_COLOR
               value: blue
+            - name: PODINF11O_UI_COLOR
+              value: blue
           livenessProbe:
             exec:
               command:
